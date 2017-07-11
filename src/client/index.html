@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" debug="true">
+<head>
+
+    <!-- <script type="text/javascript" src="https://getfirebug.com/firebug-lite.js"></script> -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Avatalk v1.0</title>
+
+    <!-- Scripts -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <link href="css/style.css?v=11" rel="stylesheet">
+    <link href="css/chat.css" rel="stylesheet"/>
+
+    <!-- 반응형웹용 css 추가 -->
+    <link href="css/respon.css" rel="stylesheet"/>
+</head>
+
+<body>
+
+<!--<div class="top_header" style="display:none">
+    <div class="c_align">
+        <a class="logo"><img src="img/logo.png" alt=""/></a>
+        <ul>
+            <li class="line"><a href="#service">서비스 소개</a></li>
+            <li><a href="#main">채팅하기</a></li>
+        </ul>
+    </div>
+</div>-->
+
+
+<div id="spika-container" style="display:none">
+
+    <div id="initial-screen" style="position:absolute;width:100%;text-align:center;top:45%">
+        Loading Avatalk... <br/>
+        <img src="img/loader.gif"/>
+    </div>
+
+</div>
+
+<div id="service-container"></div>
+
+<!--<div class="bottom_f login" style="display:none">
+    <p>
+        <a href="#service">서비스 소개</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a id="chat_link" style="cursor: pointer">채팅하기</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="#privacy">개인정보 취급방침</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="#terms">이용약관</a>
+    </p>
+    <p>Copyright 2016 C&amp;K Technology. All Rights Reserved.</p>
+</div>-->
+
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+
+    document.getElementById("initial-screen").style.height = document.documentElement.clientHeight + "px";
+//    document.getElementById("initial-screen").style.height = (document.documentElement.clientHeight - 300) + "px";
+//    alert(document.documentElement.clientHeight +' @ '+ (document.documentElement.clientHeight - 300));
+
+</script>
+
+</body>
+
+<!--<script type="text/javascript" src="js/es6-promise.min.js"></script>-->
+<script type="text/javascript" src="js/bundle.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+/*        $('#chat_link').on('click', function () {
+            var isMobile = navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/);
+console.log('isMobile', isMobile);
+            if(isMobile) {
+                alert('모바일 기기는 전용 앱을 이용해 주시기 바랍니다.');
+            } else {
+                document.location.href = "#main";
+            }
+        });*/
+    });
+</script>
+
+</html>
+
+

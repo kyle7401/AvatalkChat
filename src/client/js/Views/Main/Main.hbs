@@ -1,0 +1,53 @@
+<div class="top_header">
+    <div class="c_align">
+        <a class="logo"><img src="img/logo.png" alt=""/></a>
+        <ul>
+            <li class="line"><a href="#service">{{l10n "link_service"}}</a></li>
+            <li><a href="#main">{{l10n "link_chat"}}</a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="main-view" class="chatting_area">
+    
+    <div class="col-md-3 col-sm-3 hidden-xs" id="sidebar">
+        
+        <!--<div class="col-header">-->
+        <div class="col-header">
+            <!--<h5 class="text-center">{{l10n "Avatalk v1.0"}}</h5>-->
+            <a id="btn-newgrp"><img alt="" src="img/add_chat.png" />{{l10n "Create new group"}}</a>
+            <a id="btn-contact"><img alt="" src="img/man.png" /> {{l10n "Friends list"}}</a>
+            <a class="t_c" id="btn-setting"><img alt="" src="img/setting.png" /> {{l10n "Set"}}</a>
+        </div>
+        
+        <div id="sidebar-content" class="chat_sider">
+        
+        </div>
+        
+    </div>
+    
+    <div class="col-md-9 col-sm-9 col-xs-12" id="messaging">
+
+        <!--<div class="col-header" id="titlebar">-->
+        <div class="col-header" id="titlebar">
+             <h5 id="room_name" class="text-center">{{l10n "Room Name"}}</h5>
+            <a id="btn-room-setting" style="display:none" class="setbtn"><img alt="" src="img/setting.png" /> {{l10n "Set"}}</a>
+        </div>
+
+        <div id="messaging-content">
+        
+        </div>
+        
+    </div>
+
+    <div class="col-sm-12 col-md-3 col-xs-12" id="message-info"></div>
+    
+</div>
+
+<div class="bottom_f login">
+    <p><a href="#service">{{l10n "link_service"}}</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <span class="m_none"><a id="li_chat2">{{l10n "link_chat"}}</a>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+        <a href="#privacy">{{l10n "link_privacy"}}</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="#terms">{{l10n "link_terms"}}</a></p>
+    <p>Copyright 2016 C&amp;K Technology. All Rights Reserved.</p>
+</div>

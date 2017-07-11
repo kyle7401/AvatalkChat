@@ -1,0 +1,50 @@
+{
+  "code": 1,
+  "time": "1473043283460",
+  "data": {
+    "stickers": [
+      {
+        "name": "Stickers1",
+        "mainTitlePic": "/chat/stickers/smallPic1.png",
+        "list": [
+          {
+            "fullPic": "/chat/stickers/fullPic1.png",
+            "smallPic": "/chat/stickers/smallPic1.png"
+          },
+          {
+            "fullPic": "/chat/stickers/fullPic2.png",
+            "smallPic": "/chat/stickers/smallPic2.png"
+          },
+          {
+            "fullPic": "/chat/stickers/fullPic3.png",
+            "smallPic": "/chat/stickers/smallPic3.png"
+          },
+          {
+            "fullPic": "/chat/stickers/fullPic4.png",
+            "smallPic": "/chat/stickers/smallPic4.png"
+          },
+          {
+            "fullPic": "/chat/stickers/fullPic5.png",
+            "smallPic": "/chat/stickers/smallPic5.png"
+          },
+          {
+            "fullPic": "/chat/stickers/fullPic6.png",
+            "smallPic": "/chat/stickers/smallPic6.png"
+          },
+          {
+            "fullPic": "/chat/stickers/fullPic7.png",
+            "smallPic": "/chat/stickers/smallPic7.png"
+          },
+          {
+            "fullPic": "/chat/stickers/fullPic8.png",
+            "smallPic": "/chat/stickers/smallPic8.png"
+          },
+          {
+            "fullPic": "/chat/stickers/fullPic9.png",
+            "smallPic": "/chat/stickers/smallPic9.png"
+          }
+        ]
+      }
+    ]
+  }
+}

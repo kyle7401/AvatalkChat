@@ -1,0 +1,42 @@
+<div class="modal fade" id="modal1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header setting">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">{{l10n "Chat Room Settings"}}</h4>
+      </div>
+      <div class="modal-body setting">
+          <div class="blue_area">
+        <!--<p>{{ text }}</p>-->
+            <span class="photo">
+           <img src="{{ avatarURL }}">
+            </span>
+              <span class="chat_name">
+          {{ name }}
+              </span>
+              <p id="span_user_count"></p>
+          </div>
+
+          <div id="divBody1" class="btn_group">
+              <a id="modal-invite"><img src="img/chat_add_friend.png" alt="" />{{l10n "Invite a contact"}}</a>
+              <a id="modal-exit">{{l10n "Leave Chat Room"}}</a>
+              <a id="modal-delete" style="display:none">{{l10n "Dismantling a chat room"}}</a>
+
+              <p>{{l10n "Participants"}}</p>
+              <ul id="room_users"></ul>
+          </div>
+
+          <div id="divBody2" style="display:none">
+              <p class="list_t">{{l10n "Select a contact"}}</p>
+              <ul id="friend_list"></ul>
+          </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="modal-btn-close" class="btn btn-default" data-dismiss="modal">{{l10n "cancel"}}</button>
+        <!--<button type="button" id="modal-btn-ok" class="btn btn-default">확인</button>-->
+        <button type="button" id="modal-btn-retry" class="btn btn-primary">{{l10n "Retry"}}</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

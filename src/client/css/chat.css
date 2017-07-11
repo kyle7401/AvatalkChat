@@ -1,0 +1,918 @@
+@charset "UTF-8";
+/* line 3, chat.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*��� */
+/* line 10, chat.scss */
+body {
+  font-family: 'Malgun Gothic';
+  background-color: #efefef;
+}
+
+/* line 15, chat.scss */
+.top_header {
+  background-color: #5d89ec;
+  color: #fff;
+}
+/* line 18, chat.scss */
+.top_header .c_align {
+  width: 1030px;
+  margin: auto;
+  height: 70px;
+}
+
+/* line 24, chat.scss */
+#main-view .chat-header {
+  height: 50px;
+  border-bottom: 1px solid #eeeeee;
+  padding-left: 10px;
+  margin-top: 0px;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+/* line 32, chat.scss */
+#main-view .chat-header .text-center {
+  text-align: left;
+  padding: 7px;
+}
+/* line 36, chat.scss */
+#main-view .chat-header a {
+  color: #fff;
+  background-color: #5d89ec;
+  position: absolute;
+  top: 9px;
+  padding: 3px 12px;
+  border-radius: 5px;
+  right: 9px;
+  line-height: 180%;
+}
+
+/* line 47, chat.scss */
+.chatting_area .col-header a.setbtn {
+  color: #fff;
+  position: absolute;
+  top: 9px;
+  padding: 3px 12px;
+  border-radius: 5px;
+  right: 9px;
+  line-height: 180%;
+}
+
+/* line 55, chat.scss */
+.chatting_area .chat-header {
+  background-color: #4e6375;
+  color: #fff;
+  text-align: left;
+  padding-left: 5px !important;
+}
+
+/* line 61, chat.scss */
+.c_align ul {
+  float: right;
+  width: 250px;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+/* line 66, chat.scss */
+.c_align ul li {
+  list-style: none;
+  min-width: 120px;
+  padding: 0 15px;
+  float: left;
+  text-align: center;
+  margin: 23px 0;
+  cursor: pointer;
+  font-size: 10.5pt;
+}
+/* line 75, chat.scss */
+.c_align ul li.line {
+  border-right: 1px solid #ddd;
+}
+/* line 78, chat.scss */
+.c_align ul li a {
+  color: #fff;
+}
+/* line 80, chat.scss */
+.c_align ul li a:hover {
+  text-decoration: none;
+}
+
+/* line 87, chat.scss */
+.main .c_align {
+  position: relative;
+}
+/* line 89, chat.scss */
+.main .c_align ul {
+  float: right;
+}
+/* line 92, chat.scss */
+.main .c_align ul li a {
+  color: #333;
+}
+
+/*�α��� ȭ�� ����*/
+/* line 99, chat.scss */
+#login-view form.spika-form input {
+  border-bottom: 1px solid #dcdcdc;
+}
+
+/* line 102, chat.scss */
+.type_chk {
+  vertical-align: middle;
+  height: 40px;
+  padding-top: 20px;
+}
+
+/* line 108, chat.scss */
+#login-view form.spika-form .type_chk input {
+  height: auto;
+}
+
+/* line 111, chat.scss */
+.btn-primary.blue {
+  color: #fff;
+  background-color: #5d89ec;
+  border-color: #5d89ec;
+}
+
+/* line 117, chat.scss */
+.col-md-6.col-xs-10.col-sm-10.login {
+  top: 50%;
+  position: relative;
+  width: 365px;
+  margin: auto;
+  float: none;
+  padding: 0;
+  left: 50%;
+  margin-left: -180px;
+  margin-top: 185px;
+  margin-bottom: 100px;
+}
+/* line 129, chat.scss */
+.col-md-6.col-xs-10.col-sm-10.login .spika-form p {
+  margin: 0 20px;
+}
+
+/* line 135, chat.scss */
+.type_chk input {
+  margin: 0 0 0 20px;
+}
+/* line 136, chat.scss */
+.type_chk span {
+  box-shadow: none;
+  line-height: 40px;
+  height: 40px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 139, chat.scss */
+form.spika-form {
+  background-color: #fff;
+  padding-top: 20px;
+}
+
+/* line 144, chat.scss */
+.form-group {
+  margin: 0 20px;
+}
+
+/* line 147, chat.scss */
+.input_area {
+  margin-bottom: 20px;
+}
+
+/* line 149, chat.scss */
+.login .path {
+  margin: 15px 20px;
+}
+/* line 153, chat.scss */
+.login .comp p {
+  margin-bottom: 10px !important;
+  text-align: center;
+}
+/* line 156, chat.scss */
+.login .comp p.mail_t {
+  color: #337ab7;
+  font-size: 14pt;
+  margin-bottom: 20px !important;
+}
+
+/* line 166, chat.scss */
+h2.form-signin-heading {
+  font-size: 24px;
+  margin: 10px 20px 40px;
+}
+
+/* line 171, chat.scss */
+.info_t {
+  font-size: 10pt;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* line 177, chat.scss */
+.login a img {
+  cursor: pointer;
+}
+
+/* line 181, chat.scss */
+.spacer {
+  margin-top: 40px;
+}
+
+/*����*/
+/* line 187, chat.scss */
+.bottom_f {
+  text-align: center;
+  width: 100%;
+  font-size: 10pt;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+/* line 193, chat.scss */
+.bottom_f.login {
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* margin-top: 0; */
+}
+/* line 197, chat.scss */
+.bottom_f.login p a {
+  color: #333;
+}
+/* line 199, chat.scss */
+.bottom_f.login p a:hover {
+  text-decoration: none;
+}
+
+/*sub ALL-----------------------------------------------------------------------*/
+/* line 208, chat.scss */
+.boby_contant {
+  background-color: #fff;
+  width: 1030px;
+  margin: auto;
+  min-height: 500px;
+  margin-top: 20px;
+}
+/* line 214, chat.scss */
+.boby_contant > h2 {
+  border-bottom: 1px solid #ddd;
+  padding: 17px 30px;
+  font-weight: 600;
+  font-size: 17pt;
+  color: #444;
+}
+
+/* line 223, chat.scss */
+.policy {
+  padding: 17px 30px;
+  font-size: 10pt;
+}
+/* line 226, chat.scss */
+.policy.mobile {
+  background-color: #fff;
+}
+
+/*ä���ϱ�*/
+/* line 233, chat.scss */
+.chatting_area {
+  width: 1030px;
+  margin: auto;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+/* line 239, chat.scss */
+p.list_t {
+  margin-left: 15px;
+  margin-top: 20px;
+  font-size: 11pt;
+  font-weight: 700;
+}
+
+/* line 245, chat.scss */
+.chat_sider ul.list-unstyled li.cell-user .avatar-holder {
+  border-radius: 50px;
+  background-color: #f9f9f9;
+}
+
+/* line 250, chat.scss */
+.chatting_area .col-header {
+  background-color: #4e6375;
+  color: #fff;
+  text-align: left;
+  padding-left: 3px !important;
+}
+/* line 256, chat.scss */
+.chatting_area .col-header h5 {
+  text-align: left;
+  padding-left: 12px;
+}
+/* line 260, chat.scss */
+.chatting_area .col-header a {
+  color: #fff;
+  padding: 12px 4px 12px 0;
+  display: inline-block;
+  max-width: 49%;
+  font-size: 9pt;
+  cursor: pointer;
+}
+/* line 267, chat.scss */
+.chatting_area .col-header a:link, .chatting_area .col-header a:hover {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* line 273, chat.scss */
+.modal-header {
+  background-color: #5d89ec;
+  color: #fff;
+}
+/* line 276, chat.scss */
+.modal-header .close {
+  color: #fff;
+}
+/* line 277, chat.scss */
+.modal-header .close:hover, .modal-header .close:focus {
+  color: #fff;
+  opacity: 1;
+  filter: alpha(opacity=20);
+}
+
+/* line 285, chat.scss */
+.modal-body .form-control {
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid #ddd;
+}
+/* line 290, chat.scss */
+.modal-body .container {
+  width: 100%;
+}
+/* line 291, chat.scss */
+.modal-body .chat_chk {
+  margin-bottom: 15px;
+}
+/* line 292, chat.scss */
+.modal-body .chat_chk input {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+/* line 296, chat.scss */
+.modal-body .chat_chk label {
+  vertical-align: middle;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+/* line 302, chat.scss */
+.modal-body .chat_input {
+  margin-top: 30px;
+}
+/* line 303, chat.scss */
+.modal-body .form-group {
+  margin: 15px 20px;
+}
+/* line 307, chat.scss */
+.modal-body .tables .table tr td {
+  text-align: left;
+  vertical-align: middle;
+}
+/* line 310, chat.scss */
+.modal-body .tables .table tr td img {
+  width: 80px;
+  height: auto;
+}
+/* line 314, chat.scss */
+.modal-body .tables .table tr td:first-child {
+  width: 90px;
+}
+
+/* line 323, chat.scss */
+#users .cell-user {
+  padding: 10px;
+  list-style: none;
+  overflow: hidden;
+  color: #333;
+  cursor: pointer;
+  border-top: 1px solid #e0e0e0;
+}
+/* line 330, chat.scss */
+#users .cell-user:hover {
+  background-color: #eee;
+}
+/* line 333, chat.scss */
+#users .cell-user:first-child {
+  border-top: none;
+}
+/* line 337, chat.scss */
+#users .cell-user .avatar-holder {
+  width: 60px;
+  height: 60px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 80px;
+  border: 1px solid #ddd;
+  float: left;
+  margin-right: 20px;
+}
+/* line 348, chat.scss */
+#users .cell-user .title {
+  font-size: 12pt;
+  font-weight: 800;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+/* line 359, chat.scss */
+#messages > .chat_info {
+  position: relative;
+  top: 50%;
+  margin-top: -80px;
+  text-align: center;
+}
+/* line 364, chat.scss */
+#messages > .chat_info p {
+  font-size: 11pt;
+  color: #888;
+  letter-spacing: -0.5px;
+  margin-top: 5px;
+}
+
+/* line 372, chat.scss */
+#messaging-content #text-message-box-container textarea {
+  width: 89% !important;
+}
+
+/* line 376, chat.scss */
+.modal-body.setting {
+  padding: 0;
+}
+/* line 378, chat.scss */
+.modal-body.setting img {
+  width: 70px;
+}
+/* line 382, chat.scss */
+.modal-body.setting .btn_group a {
+  color: #555;
+  display: block;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+/* line 388, chat.scss */
+.modal-body.setting .btn_group a:hover {
+  background-color: #f9f9f9;
+  text-decoration: none;
+}
+/* line 390, chat.scss */
+.modal-body.setting .btn_group img {
+  width: auto;
+  margin-right: 10px;
+}
+
+/* line 397, chat.scss */
+.modal-body.setting li.cell-user {
+  padding: 15px;
+  border-top: 1px solid #ddd;
+  overflow: hidden;
+  list-style: none;
+  position: relative;
+}
+/* line 403, chat.scss */
+.modal-body.setting li.cell-user:first-child {
+  border: none;
+}
+/* line 404, chat.scss */
+.modal-body.setting li.cell-user div {
+  height: 60px;
+  width: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 60px;
+  float: left;
+  margin-right: 15px;
+}
+/* line 413, chat.scss */
+.modal-body.setting li.cell-user span.title {
+  display: inline-block;
+  float: left;
+  font-size: 11pt;
+  font-weight: 800;
+  padding-top: 10px;
+}
+
+/* line 422, chat.scss */
+.btn_group > p {
+  margin-left: 15px;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+/* line 427, chat.scss */
+.modal-body.setting li.cell-user button {
+  background-color: #5d89ec;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 7px 20px;
+  float: right;
+  margin-top: 15px;
+}
+/* line 435, chat.scss */
+.modal-body.setting li.cell-user button:hover {
+  background-color: #4a71c7;
+}
+
+/* line 439, chat.scss */
+.blue_area {
+  padding: 15px;
+  color: #fff;
+  background-color: #5d89ec;
+  font-size: 12pt;
+  font-weight: 800;
+  overflow: hidden;
+}
+/* line 446, chat.scss */
+.blue_area span.photo {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 80px;
+  overflow: hidden;
+  float: left;
+  margin-right: 15px;
+}
+/* line 456, chat.scss */
+.blue_area span.chat_name {
+  padding-top: 10px;
+  display: inline-block;
+}
+
+/* line 462, chat.scss */
+a#modal-logout {
+  display: block;
+  padding: 15px 0 15px 15px;
+  border-top: 1px solid #ddd;
+  cursor: pointer;
+  color: #333;
+  font-size: 11pt;
+}
+/* line 469, chat.scss */
+a#modal-logout:hover {
+  text-decoration: none;
+  background-color: #eee;
+}
+
+/* line 477, chat.scss */
+.modal-header.setting {
+  border-bottom: none;
+}
+
+/* line 481, chat.scss */
+.chat_sider ul.list-unstyled li:hover {
+  background-color: #f5f5f5;
+}
+
+/* line 485, chat.scss */
+.chatting_area .col-header a.t_c {
+  text-align: center;
+}
+
+/* line 490, chat.scss */
+body .main_top4, body .main_top3 {
+  font-family: "NanumSquareOTFR00";
+}
+
+/*���� �Ұ�*/
+/* line 497, chat.scss */
+.top_header.main {
+  background-color: transparent;
+  background-image: url("../img/main_top_bg.png");
+  background-position: center;
+  color: #444;
+  min-width: 1030px;
+}
+
+/* line 505, chat.scss */
+.boby_contant.main {
+  width: 100%;
+  background-color: transparent;
+  margin-top: 0;
+  min-width: 1030px;
+}
+/* line 511, chat.scss */
+.boby_contant.main .main_top {
+  background-image: url("../img/main_top_bg2.png");
+  background-position: center;
+  height: 477px;
+}
+
+/* line 518, chat.scss */
+.main_top2 {
+  background-image: url("../img/main_top_bg3.png");
+  background-position: center;
+  height: 610px;
+}
+
+/* line 524, chat.scss */
+.main_top3 {
+  background-image: url("../img/main_top_bg4.png");
+  background-position: center;
+  height: 420px;
+  border-bottom: 1px solid #5d7cce;
+  border-top: 1px solid #6693f7;
+}
+/* line 530, chat.scss */
+.main_top3 .c_align {
+  width: 1050px;
+  margin: auto;
+  height: 420px;
+}
+
+/* line 537, chat.scss */
+.main_top4 {
+  background-image: url("../img/main_top_bg5.png");
+  background-position: center;
+  min-height: 1690px;
+  background-color: #001572;
+  background-repeat: repeat-x;
+  position: relative;
+}
+
+/* line 545, chat.scss */
+.boby_contant.main > div.main_top3, .boby_contant.main > div.main_top4 {
+  overflow: hidden;
+}
+
+/* line 548, chat.scss */
+.c_align {
+  width: 1030px;
+  margin: auto;
+}
+
+/* line 553, chat.scss */
+.main .c_align ul li.line {
+  border-right: 1px solid #333;
+}
+
+/* line 557, chat.scss */
+.main_top .c_align {
+  text-align: center;
+}
+/* line 559, chat.scss */
+.main_top .c_align > img {
+  margin-top: -50px;
+}
+/* line 562, chat.scss */
+.main_top .c_align a {
+  cursor: pointer;
+}
+
+/* line 567, chat.scss */
+.bottom_f.main {
+  background-color: #001572;
+  margin-top: 0;
+  padding-top: 20px;
+  color: #fff;
+  min-width: 1030px;
+}
+
+/* line 575, chat.scss */
+.text_area {
+  width: 45%;
+  float: left;
+  position: relative;
+  top: 50%;
+  margin-top: -83px;
+}
+/* line 581, chat.scss */
+.text_area h3 {
+  padding-left: 115px;
+  background-image: url("../img/icon_1.png");
+  background-repeat: no-repeat;
+  min-height: 95px;
+  color: #fff;
+  font-size: 27pt;
+  line-height: 135%;
+  font-family: 'Malgun Gothic';
+}
+/* line 591, chat.scss */
+.text_area span {
+  display: block;
+  color: #fff;
+  font-size: 13.5pt;
+  font-weight: 400;
+  margin-top: 15px;
+  line-height: 140%;
+}
+/* line 599, chat.scss */
+.text_area + img {
+  position: absolute;
+}
+/* line 601, chat.scss */
+.text_area + img.ava2 {
+  bottom: 0;
+  right: -280px;
+}
+/* line 602, chat.scss */
+.text_area + img.ava5 {
+  bottom: 20px;
+  left: 180px;
+}
+
+/* line 606, chat.scss */
+.photo_area {
+  width: 55%;
+  float: right;
+  text-align: right;
+}
+/* line 610, chat.scss */
+.photo_area img {
+  vertical-align: middle;
+  margin-top: 40px;
+  float: right;
+}
+/* line 615, chat.scss */
+.photo_area + img {
+  position: absolute;
+}
+/* line 617, chat.scss */
+.photo_area + img.ava1 {
+  bottom: 0;
+  left: -280px;
+}
+/* line 618, chat.scss */
+.photo_area + img.ava3 {
+  bottom: 20px;
+  left: -350px;
+}
+/* line 620, chat.scss */
+.photo_area + img.ava3 + img {
+  bottom: 20px;
+  right: -360px;
+  position: absolute;
+}
+
+/* line 628, chat.scss */
+.boby_contant.main .line {
+  min-height: 420px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  clear: both;
+}
+
+/* line 634, chat.scss */
+.line .c_align {
+  height: 420px;
+  position: relative;
+}
+/* line 637, chat.scss */
+.line .c_align.tow .photo_area img {
+  margin-top: 80px;
+}
+/* line 640, chat.scss */
+.line .c_align.four {
+  height: 490px;
+}
+
+/* line 646, chat.scss */
+.r .photo_area {
+  float: left;
+}
+/* line 649, chat.scss */
+.r .text_area {
+  float: left;
+  /* top: 0; */
+  /* margin-top: 0; */
+}
+/* line 654, chat.scss */
+.r .photo_area img {
+  float: left;
+  margin-top: 80px;
+}
+
+/* line 660, chat.scss */
+.one .text_area h3 {
+  background-image: url("../img/icon_2.png");
+}
+
+/* line 664, chat.scss */
+.tow .text_area h3 {
+  background-image: url("../img/icon_3.png");
+}
+
+/* line 668, chat.scss */
+.three .text_area h3 {
+  background-image: url("../img/icon_4.png");
+}
+
+/* line 673, chat.scss */
+.four .text_area {
+  width: 100%;
+  top: 0;
+  margin-top: 30px;
+}
+/* line 677, chat.scss */
+.four .text_area h3 {
+  background-image: none;
+  padding-left: 0;
+  text-align: center;
+  font-family: 'Malgun Gothic';
+}
+/* line 682, chat.scss */
+.four .text_area h3 span {
+  margin-top: 5px;
+}
+/* line 687, chat.scss */
+.four .photo_area {
+  width: 100%;
+  text-align: center;
+  float: none;
+  clear: both;
+  height: 255px;
+}
+/* line 693, chat.scss */
+.four .photo_area img {
+  float: none;
+  margin-top: 30px;
+}
+
+/* line 700, chat.scss */
+.bottom_f.main p {
+  margin-bottom: 10px;
+}
+/* line 702, chat.scss */
+.bottom_f.main p a {
+  cursor: pointer;
+  color: #fff;
+}
+/* line 705, chat.scss */
+.bottom_f.main p a:hover {
+  text-decoration: none;
+}
+
+/* line 712, chat.scss */
+.lang {
+  display: block;
+  padding: 0 0 0 15px;
+  border-top: 1px solid #ddd;
+  cursor: pointer;
+  color: #333;
+  font-size: 11pt;
+}
+/* line 719, chat.scss */
+.lang select {
+  padding: 15px 0 15px 15px;
+  border: none;
+  width: 86%;
+  margin-left: 25px;
+}
+
+/* line 729, chat.scss */
+.form-group.phone {
+  margin: 0 20px 15px;
+  overflow: hidden;
+}
+
+/* line 733, chat.scss */
+#login-view form.spika-form .phone .form-label {
+  margin-bottom: 10px;
+}
+
+/* line 736, chat.scss */
+#login-view form.spika-form .phone .country {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  line-height: 40px;
+  height: 40px;
+  width: 130px;
+}
+
+/* line 747, chat.scss */
+#login-view form.spika-form .phone .phonenum {
+  width: 180px;
+  float: right;
+}
+
+/* line 751, chat.scss */
+.login .spika-form p#country_code {
+  float: left;
+  margin-bottom: 20px;
+  max-width: 40px;
+}
+/* line 756, chat.scss */
+.login .spika-form p#phone_number {
+  float: left;
+  margin-bottom: 20px;
+  width: 265px;
+  margin-left: 0;
+}

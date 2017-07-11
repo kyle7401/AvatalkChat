@@ -1,0 +1,107 @@
+﻿@media (max-width:1080px){
+  /*기본 구조 변경하기*/
+  .c_align {  width: 100%  }
+  .top_header.main{min-width: 0;}
+  .top_header .c_align{ width: 100%}
+  .boby_contant {  width: 100%;  }
+  .boby_contant.main {  min-width: 0;  }
+  .bottom_f.main{min-width: 0;}
+
+
+  /*배경이미지 모바일용으로 교체*/
+  .main_top2 {  background-image: url(../img/m_main_top_bg3.png);  height: 250px;  }
+  .main_top3 {  background-image: url(../img/m_main_top_bg4.png);  background-position: top center;  height: 630px;  }
+  .main_top4 {  background-image: url(../img/m_main_top_bg5.png);  background-position: top center;  min-height: 1690px;  }
+
+  .main_top3 .c_align {  width: 100%;  height: 630px; float: left; }
+  .text_area {  width: 100%;  float: none;  top: 0;  margin-top: 0;  }
+  .photo_area {  float: none;  text-align: center;width: 100%;  }
+  .photo_area img {  float: none;  text-align: center;  margin: auto;  margin-top: 30px; max-width: 100%;}
+  .text_area h3 {  text-align: center;  padding-left: 0;  padding-top: 115px;  background-position: top center; margin-top: 10px;}
+  .line .c_align {  height: 648px;  }
+  .r {
+    .text_area {
+    float: none;
+    position: absolute;
+  }
+    .photo_area {
+      float: none;
+      text-align: center;
+      width: 100%;
+    }
+    .photo_area img {
+      float: none;
+      margin-top: 308px;
+    }
+  }
+
+  .line .c_align.tow .photo_area img {  margin-top: 20px;  }
+  .photo_area + img.ava1 {  left: -30px;  }
+  .text_area + img.ava2 {  right: 0;  }
+  .photo_area + img.ava3 {  left: -80px;  }
+  .text_area + img.ava5 {  left: inherit;  right: 100px;  }
+}
+
+
+@media (max-width:850px){
+  .main_top .c_align > img {  max-width: 100%; margin-top: 0; }
+  .four .photo_area img { max-width: 100%;}
+}
+@media (max-width:590px){
+  .text_area h3 {  margin-top: 40px;}
+  .photo_area img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -50%;
+  }
+  .photo_area + img.ava1 {display: none;}
+  .text_area + img.ava2 { display: none;}
+  .photo_area + img.ava3 {display: none;}
+  .text_area + img.ava5 { display: none; }
+  .line .c_align.tow {
+    height: 550px;
+  }
+
+  .line .c_align.four .text_area h3 {
+    padding-top: 0;
+  }
+  .r.three .photo_area img {
+    float: none;
+    margin-top: 308px;
+    margin-left: -25%;
+  }
+  .c_align ul{ width: 125px;}
+  .c_align ul li {
+    display: none;
+  }
+  .c_align ul li.line {
+    display: block;
+    border-right: none;
+  }
+  .main .c_align ul li.line {
+    border-right: none;
+  }
+  .m_none{ display: none;}
+}
+/*안드로이드 세로보기*/
+@media (max-width:420px){
+  .main_top .c_align a img{
+    margin-bottom: 10px;
+  }
+  .text_area h3{font-size: 19pt;}
+  .text_area span{ font-size: 11pt;}
+
+  .main_top3 .c_align {  height: 540px;  }
+  .line .c_align {  height: 540px;  }
+  .line .c_align.r.three {
+    height: 610px;
+  }
+  .line .c_align.four {
+    height: 250px;
+  }
+  .boby_contant.main .line {
+    min-height: 280px;
+  }
+
+}

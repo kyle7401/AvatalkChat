@@ -1,0 +1,38 @@
+<div class="modal fade" id="modal1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">{{l10n "Create a new group"}}</h4>
+      </div>
+      <div class="modal-body">
+        <!--<p>{{ text }}</p>-->
+
+          <div class="form-group" id="div1">
+              <div class="chat_chk">
+                 <input type="radio" name="rdoGubun" id="rdo1" value="2" checked><label for="rdo1">{{l10n "Create a group chat room"}}</label> <br>
+              </div>
+              <div class="chat_chk">
+              <input type="radio" name="rdoGubun" id="rdo2" value="3"><label for="rdo2">{{l10n "Create a public chat room"}}</label>
+              </div>
+              <div class="form-label chat_input">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> {{l10n "Group name"}}
+              </div>
+              <input type="text" id="input-grpname" class="form-control">
+              <div class="label-error"></div>
+          </div>
+
+          <div class="container" id="div2" style="display:none">
+              <p>{{l10n "Select a contact"}}</p>
+              <div class="tables"></div>
+          </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="modal-btn-close" class="btn btn-default" data-dismiss="modal">{{l10n "cancel"}}</button>
+        <button type="button" id="modal-btn-ok" class="btn btn-default">{{l10n "Confirm"}}</button>
+        <button type="button" id="modal-btn-retry" class="btn btn-primary">{{l10n "Retry"}}</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
